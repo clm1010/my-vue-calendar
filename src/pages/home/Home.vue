@@ -1,6 +1,13 @@
 <template>
 <div>
-  <home-calendar ref="HomeCalendar" :markDateMore="arr" v-on:choseDay="clickDay" v-on:changeMonth="changeDate"></home-calendar>
+  <home-calendar
+    ref="HomeCalendar"
+    :markDateMore="arr"
+    v-on:choseDay="clickDay"
+    v-on:changeMonth="changeDate"
+    agoDayHide='1517483961'
+    futureDayHide='1536054400'
+  ></home-calendar>
 </div>
 </template>
 
